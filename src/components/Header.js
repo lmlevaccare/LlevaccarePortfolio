@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Header() {
+export default function MenuListComposition() {
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
     const anchorRef = React.useRef(null);
@@ -90,7 +90,7 @@ export default function Header() {
                                         id="menu-list-grow"
                                         onKeyDown={handleListKeyDown}
                                     >
-                                       <Router>
+                                     
                                         <Link to="/">
                                             <MenuItem className="home" onClick={handleClose}>
                                                 Home Page
@@ -107,7 +107,7 @@ export default function Header() {
                                         <Link to="/contact">
                                             <MenuItem onClick={handleClose}>Contact</MenuItem>
                                             </Link>
-                                        </Router>
+                                    
                                     </MenuList>
                                 </ClickAwayListener>
                             </Paper>

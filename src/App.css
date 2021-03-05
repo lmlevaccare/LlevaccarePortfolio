@@ -1,5 +1,14 @@
+
+* {
+  font-size: 20px;
+  font-family:"Open Sans Condensed, sans-serif";
+  margin-top: 0mm;
+
+}
+
+
 .container{
-    text-align: center;
+  text-align: center;
   font-family:"Open Sans Condensed, sans-serif";
   background-attachment: fixed;
   margin-top: auto;
@@ -7,4 +16,11 @@
   flex-direction: row;
   justify-content: flex-end;
   justify-content: end;
+}
+
+
+.background, html, body{
+    background-image: url('./images/homemed.png');
+    height: 100%; 
+    font-weight: bolder;
 }
