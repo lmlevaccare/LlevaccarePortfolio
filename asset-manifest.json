@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LlevaccarePortfolio/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/LlevaccarePortfolio/static/js/main.a5920025.chunk.js",
+    "main.js.map": "/LlevaccarePortfolio/static/js/main.a5920025.chunk.js.map",
+    "runtime-main.js": "/LlevaccarePortfolio/static/js/runtime-main.b6b06879.js",
+    "runtime-main.js.map": "/LlevaccarePortfolio/static/js/runtime-main.b6b06879.js.map",
+    "static/js/2.2422fa3f.chunk.js": "/LlevaccarePortfolio/static/js/2.2422fa3f.chunk.js",
+    "static/js/2.2422fa3f.chunk.js.map": "/LlevaccarePortfolio/static/js/2.2422fa3f.chunk.js.map",
+    "static/js/3.580cdf6e.chunk.js": "/LlevaccarePortfolio/static/js/3.580cdf6e.chunk.js",
+    "static/js/3.580cdf6e.chunk.js.map": "/LlevaccarePortfolio/static/js/3.580cdf6e.chunk.js.map",
+    "index.html": "/LlevaccarePortfolio/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/LlevaccarePortfolio/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2422fa3f.chunk.js.LICENSE.txt": "/LlevaccarePortfolio/static/js/2.2422fa3f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/LlevaccarePortfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6b06879.js",
+    "static/js/2.2422fa3f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.a5920025.chunk.js"
+  ]
+}
