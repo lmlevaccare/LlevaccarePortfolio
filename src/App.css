@@ -24,3 +24,7 @@
     height: 100%; 
     font-weight: bolder;
 }
+
+.card {
+  margin-left: auto;
+}
