@@ -1,13 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { makeStyles } from "@material-ui/core/styles";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import MenuListComposition from "./components/Header"
+import Contact from "./components/Contact"
+import Projects from "./components/Projects"
+import MediaCard from "./components/About"
+import Footer from "./components/Footer"
+
 
 function App() {
-  return (
-    <div className="container">
+    return (
+
+      <Router>
+        <div >
+
+          <MenuListComposition  />
+
+
+
+          <Route exact path="/"/>
+          
+          <Route exact path="/contact" component={Contact}/>
+          
+          <Route exact path="/projects" component={Projects} />
       
 
-    </div>
-  );
-}
+          <Route exact path="/about" component={MediaCard}/>
+        
 
-export default App;
+          <Footer/>
+          
+        </div>
+      </Router>
+
+     
+
+    );
+  }
+
+  export default App;
+
