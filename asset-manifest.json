@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/LlevaccarePortfolio/static/css/main.f8e2e954.chunk.css",
+    "main.js": "/LlevaccarePortfolio/static/js/main.1acf02ef.chunk.js",
+    "main.js.map": "/LlevaccarePortfolio/static/js/main.1acf02ef.chunk.js.map",
+    "runtime-main.js": "/LlevaccarePortfolio/static/js/runtime-main.75409f79.js",
+    "runtime-main.js.map": "/LlevaccarePortfolio/static/js/runtime-main.75409f79.js.map",
+    "static/css/2.fabbef47.chunk.css": "/LlevaccarePortfolio/static/css/2.fabbef47.chunk.css",
+    "static/js/2.7438aefb.chunk.js": "/LlevaccarePortfolio/static/js/2.7438aefb.chunk.js",
+    "static/js/2.7438aefb.chunk.js.map": "/LlevaccarePortfolio/static/js/2.7438aefb.chunk.js.map",
+    "static/js/3.4ad53a42.chunk.js": "/LlevaccarePortfolio/static/js/3.4ad53a42.chunk.js",
+    "static/js/3.4ad53a42.chunk.js.map": "/LlevaccarePortfolio/static/js/3.4ad53a42.chunk.js.map",
+    "index.html": "/LlevaccarePortfolio/index.html",
+    "static/css/2.fabbef47.chunk.css.map": "/LlevaccarePortfolio/static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.f8e2e954.chunk.css.map": "/LlevaccarePortfolio/static/css/main.f8e2e954.chunk.css.map",
+    "static/js/2.7438aefb.chunk.js.LICENSE.txt": "/LlevaccarePortfolio/static/js/2.7438aefb.chunk.js.LICENSE.txt",
+    "static/media/Lauren Levaccare Resume FEB 2021.b3fa70bb.pdf": "/LlevaccarePortfolio/static/media/Lauren Levaccare Resume FEB 2021.b3fa70bb.pdf",
+    "static/media/App.css": "/LlevaccarePortfolio/static/media/homemed.63849ecb.png",
+    "static/media/kindnessClubAPP.fa725dcb.png": "/LlevaccarePortfolio/static/media/kindnessClubAPP.fa725dcb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75409f79.js",
+    "static/css/2.fabbef47.chunk.css",
+    "static/js/2.7438aefb.chunk.js",
+    "static/css/main.f8e2e954.chunk.css",
+    "static/js/main.1acf02ef.chunk.js"
+  ]
+}
