@@ -18,7 +18,9 @@
   justify-content: end;
 }
 
-
+.btn {
+  color: pink
+}
 .background, html, body{
     background-image: url('./images/homemed.png');
     height: 100%; 
@@ -27,4 +29,12 @@
 
 p{
   margin-left: 38px;
+}
+
+.UserForm {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.jumbotron {
+  text-align: center;
 }

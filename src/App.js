@@ -7,6 +7,7 @@ import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import MediaCard from "./components/About"
 import Footer from "./components/Footer"
+import { Button } from '@material-ui/core';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <Route exact path="/contact" component={Contact}/>
           
           <Route exact path="/projects" component={Projects} />
-      
+        
 
           <Route exact path="/about" component={MediaCard}/>
         
