@@ -1,24 +1,31 @@
 
 import './App.css';
-import { makeStyles } from "@material-ui/core/styles";
+// import { makeStyles } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import MenuListComposition from "./components/Header"
+// import MenuListComposition from "./components/Header"
 import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import MediaCard from "./components/About"
-import Footer from "./components/Footer"
-import { Button } from '@material-ui/core';
+// import Footer from "./components/Footer"
+import NavBar from "./components/NavBar"
+// import { Button } from '@material-ui/core';
+
+
 
 
 function App() {
-    return (
+  return (
+      
 
-      <Router>
+    <Router>
+      
         <div >
+      
 
-          <MenuListComposition  />
 
+          <NavBar />
 
+       
 
           <Route exact path="/"/>
           
@@ -30,8 +37,6 @@ function App() {
           <Route exact path="/about" component={MediaCard}/>
         
 
-          <Footer/>
-          
         </div>
       </Router>
 

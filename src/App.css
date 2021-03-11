@@ -31,10 +31,15 @@ p{
   margin-left: 38px;
 }
 
-.UserForm {
+.cards {
   margin-left: 20px;
   margin-right: 20px;
+ padding-top:25px;
 }
 .jumbotron {
+  text-align: center;
+}
+
+h1{
   text-align: center;
 }
