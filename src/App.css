@@ -1,6 +1,6 @@
 
 * {
-  font-size: 20px;
+  font-size: 25px;
   font-family:"Open Sans Condensed, sans-serif";
   margin-top: 0mm;
 
@@ -27,4 +27,26 @@
 
 p{
   margin-left: 38px;
+  font-size: 35px;
+}
+
+.cards {
+  margin-left: 20px;
+  margin-right: 20px;
+ padding-top:25px;
+}
+.jumbotron {
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.typescript{
+  text-align: center;
+  
+}
+span{
+  font-size: 40px;
 }

@@ -44,7 +44,7 @@ export default function MediaCard() {
                 
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        About Me
+                        About.Me
           </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         Full Stack Web developer with a background in sales and sales
@@ -59,7 +59,7 @@ export default function MediaCard() {
           </Typography>
                 </CardContent>
        
-            <CardActions>
+            {/* <CardActions>
                 <Button size="small" color="primary">
                     <span><a href={email}>Email.Me</a></span>
         </Button>
@@ -78,7 +78,7 @@ export default function MediaCard() {
                     <span><a href={urlLinkedin }>Linkedin</a></span>
 
                 </Button>
-            </CardActions>
+            </CardActions> */}
         </Card>
     );
 }

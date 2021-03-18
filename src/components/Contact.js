@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import "../App.css"
 
 
+
 const Contact = () => {
 
      
@@ -16,8 +17,11 @@ const Contact = () => {
     let urlGithub = "https://github.com/lmlevaccare"
 
 
+
     return (
-        <Card  >
+        <div>
+            
+        <Card >
             <CardActions className="contact">
                 <Button size="small" color="primary">
                     <span><a href={email}>Email.Me</a></span>
@@ -39,7 +43,7 @@ const Contact = () => {
                 </Button>
             </CardActions>
         </Card>
-           
+        </div>
        
     )
 }
