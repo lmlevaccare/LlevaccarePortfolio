@@ -43,7 +43,7 @@ export default function MediaCard() {
                
                 
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant component="h2">
                         About.Me
           </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">

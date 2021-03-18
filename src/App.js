@@ -9,14 +9,11 @@ import MediaCard from "./components/About"
 // import Footer from "./components/Footer"
 import NavBar from "./components/NavBar"
 import TypedScript from "./components/TypedScript"
+import WorkImg from "./components/WorkImg"
+import Wrapper from "./components/Wrapper"
 
-// import { Button } from '@material-ui/core';
+import HpageLogo from "./components/HpageLogo"
 
-
-
-   
-
-  
 
 
 function App() {
@@ -25,34 +22,17 @@ function App() {
   
   
     return (
-  
       <Router>
-      
-        <div >
-     
-
-          <NavBar />
-
-       
-
-          <Route exact path="/" component={TypedScript}/>
-          
+        <NavBar />
+        <div>
+          <Route exact path="/" component={HpageLogo}/>
           <Route exact path="/contact" component={Contact} />
-          
-          <Route exact path="/projects" component={Projects} />
-        
-
+          <Route exact path="/projects" component={WorkImg} />
           <Route exact path="/about" component={MediaCard} />
-    
           {/* <Footer /> */}
-        
-
+          
         </div>
-    
       </Router>
-
-     
-
     );
   }
 

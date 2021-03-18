@@ -7,6 +7,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from "react-bootstrap/Col";
 import "../App.css"
+import WorkImg from "../components/WorkImg";
 // import Button from "./Button";
 import image1 from "../images/designerWishlist.png";
 import image2 from "../images/kindnessClubAPP.png";
@@ -155,6 +156,7 @@ const Projects = () => {
     <ul><span><a href={urlArray2[5]}>WeatherApi.App-githubRepo</a></span></ul>     */}
                 </Row>
             </Container>
+            <WorkImg/>
         </div>
 
     );

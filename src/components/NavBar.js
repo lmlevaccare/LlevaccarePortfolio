@@ -6,10 +6,11 @@ import Form from "react-bootstrap/Form"
 import Button from 'react-bootstrap/Button';
 import FormControl from "react-bootstrap/FormControl"
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import "../App.css"
 const NavBar = () => {
     return (
-        <div>
-            <Navbar bg="light" expand="lg">
+        
+            <Navbar className="navbar" bg="dark" variant="dark" expand="lg" >
                 <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -32,7 +33,7 @@ const NavBar = () => {
                     </Form> */}
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+     
     )
 }
 export default NavBar
