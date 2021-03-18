@@ -59,7 +59,7 @@ export default function MediaCard() {
           </Typography>
                 </CardContent>
        
-            <CardActions>
+            {/* <CardActions>
                 <Button size="small" color="primary">
                     <span><a href={email}>Email.Me</a></span>
         </Button>
@@ -78,7 +78,7 @@ export default function MediaCard() {
                     <span><a href={urlLinkedin }>Linkedin</a></span>
 
                 </Button>
-            </CardActions>
+            </CardActions> */}
         </Card>
     );
 }

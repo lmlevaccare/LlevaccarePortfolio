@@ -1,6 +1,6 @@
 
 * {
-  font-size: 20px;
+  font-size: 25px;
   font-family:"Open Sans Condensed, sans-serif";
   margin-top: 0mm;
 
@@ -18,9 +18,7 @@
   justify-content: end;
 }
 
-.btn {
-  color: pink
-}
+
 .background, html, body{
     background-image: url('./images/homemed.png');
     height: 100%; 
@@ -29,6 +27,7 @@
 
 p{
   margin-left: 38px;
+  font-size: 35px;
 }
 
 .cards {
@@ -42,4 +41,12 @@ p{
 
 h1{
   text-align: center;
+}
+
+.typescript{
+  text-align: center;
+  
+}
+span{
+  font-size: 40px;
 }

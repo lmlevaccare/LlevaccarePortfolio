@@ -70,13 +70,10 @@ const Projects = () => {
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Title style={{ textAlign: 'center' }}>The.Kindness.Club</Card.Title>
-                            <Card.Img variant="top" src={image2} thumbnail />
+                            <Card.Img variant="top" src={image2} width={100}
+                                height={300} thumbnail  />
                             <Card.Body>
-
                                 <Card.Text style={{ textAlign: 'center' }}></Card.Text>
-                       
-
-
                                 <Card.Link style={{ textAlign: 'center' }} href={urlArray2[1]}>Github Repo</Card.Link>
                                 <Card.Link style={{ textAlign: 'center' }} href={urlsArray[1]}>Deployed Link</Card.Link>
 
@@ -87,10 +84,11 @@ const Projects = () => {
 
                     {/* CARD 2 */}
                     <Col>
-                        <br></br>
+                       
                         <Card style={{ width: '18rem' }}>
                             <Card.Title style={{ textAlign: 'center' }}>Read.Here</Card.Title>
-                            <Card.Img variant="top" src={image6} thumbnail />
+                            <Card.Img variant="top" src={image6} width={100}
+                                height={300} thumbnail />
                             <Card.Body>
 
                                 <Card.Text style={{ textAlign: 'center' }}></Card.Text>
@@ -107,10 +105,11 @@ const Projects = () => {
 
                     {/* CARD 3 */}
                     <Col>
-                        <br></br>
+                       
                         <Card style={{ width: '18rem' }}>
                             <Card.Title style={{ textAlign: 'center' }}>Weather.API.Map</Card.Title>
-                            <Card.Img variant="top" src={image5} thumbnail />
+                            <Card.Img variant="top" src={image5} width={100}
+                                height={300} thumbnail />
                             <Card.Body>
 
                                 <Card.Text style={{ textAlign: 'center' }}></Card.Text>
@@ -125,16 +124,15 @@ const Projects = () => {
                     </Col>
                     {/* CARD 4 */}
                     <Col>
-                        <br></br>
+                        
                         <Card style={{ width: '18rem' }}>
                             <Card.Title style={{ textAlign: 'center' }}>Virtual.Notepad</Card.Title>
-                            <Card.Img variant="top" src={image3} thumbnail />
+                            <Card.Img variant="top" src={image3} width={100}
+                                height={300} thumbnail />
                             <Card.Body>
 
-                                <Card.Text style={{ textAlign: 'center' }}>...</Card.Text>
+                                <Card.Text style={{ textAlign: 'center' }}></Card.Text>
                             
-
-
                                 <Card.Link style={{ textAlign: 'center' }} href={urlArray2[4]}>Github Repo</Card.Link>
                                 <Card.Link style={{ textAlign: 'center' }} href={urlsArray[4]}>Deployed Link</Card.Link>
 

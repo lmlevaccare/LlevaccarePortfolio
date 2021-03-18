@@ -8,36 +8,47 @@ import Projects from "./components/Projects"
 import MediaCard from "./components/About"
 // import Footer from "./components/Footer"
 import NavBar from "./components/NavBar"
+import TypedScript from "./components/TypedScript"
+
 // import { Button } from '@material-ui/core';
 
 
 
+   
+
+  
+
 
 function App() {
-  return (
-      
-
-    <Router>
+  
+   
+  
+  
+    return (
+  
+      <Router>
       
         <div >
-      
-
+     
 
           <NavBar />
 
        
 
-          <Route exact path="/"/>
+          <Route exact path="/" component={TypedScript}/>
           
-          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/contact" component={Contact} />
           
           <Route exact path="/projects" component={Projects} />
         
 
-          <Route exact path="/about" component={MediaCard}/>
+          <Route exact path="/about" component={MediaCard} />
+    
+          {/* <Footer /> */}
         
 
         </div>
+    
       </Router>
 
      
