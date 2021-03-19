@@ -8,11 +8,12 @@ import "../App.css"
      return (
        <div className="typescript">
          <Typed
+          
            strings={[
-            " Front End Development",
-            " Back End Development",
-            " Web Design",
-            " Programming "
+             " Front End Development..",
+             " Back End Development..",
+             " Web Design.....",
+             " Programming..... ",
            ]}
            typeSpeed={40}
            backSpeed={50}

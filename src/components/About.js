@@ -1,84 +1,93 @@
 import React from 'react'
-import image1 from "../images/kindnessClubAPP.png"
-import resume from "../images/Lauren Levaccare Resume FEB 2021.pdf"
-import MenuListComposition from "./Header"
 
-// import  "../App.css"
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import Media from "react-bootstrap/Media";
+import Button from "react-bootstrap/Button";
 
-
-
-  
-const useStyles = makeStyles({
-    root: {
-        maxWidth: 345,
-    },
-    media: {
-        height: 140,
-    },
-});
-
+import headshot from "../images/headshot2.jpg"
+import Wrapper from "../components/Wrapper"
+import "../App.css"
+import Container from 'react-bootstrap/esm/Container';
+import About from "./About"
 export default function MediaCard() {
 
-    let email = "mailto:laurenlevaccare@icloud.com"
+      let email = "mailto:laurenlevaccare@icloud.com";
     let urlLinkedin = "https://www.linkedin.com/in/laurenlevaccareresume"
-    let urlGithub = "https://github.com/lmlevaccare"
-
-    const classes = useStyles();
+    let urlGithub = "https://github.com/lmlevaccare" 
     
 
     return (
-       
-        <Card >
-        
-         
-                <CardMedia
-                    className={classes.media}/>
-               
-                
-                <CardContent>
-                    <Typography gutterBottom variant component="h2">
-                        About.Me
-          </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        Full Stack Web developer with a background in sales and sales
-                        management. Graduate of the Northwestern Coding Boot Camp as well as
-                        holding a BA degree in business management with a minor in media
-                        marketing.As a full stack web developer I look forward to leveraging
-                        my management skill-set with new web development and programming
-                        techniques.I have a strong curiosity for new tools, programs and
-                        technologies along with a passion for creating new applications and
-                        collaborating with others.
-                         
-          </Typography>
-                </CardContent>
-       
-            {/* <CardActions>
-                <Button size="small" color="primary">
-                    <span><a href={email}>Email.Me</a></span>
-        </Button>
-                <Button size="small" color="primary">
-                  
-                    <span><a href={urlGithub}>Github.Page</a></span>
-                  
-                </Button>
-                <Button size="small" color="primary">
+      // <Figure>
 
-                    <span><a href={resume}>Resume</a></span>
+      //     <h1 style={{ color: "orange" }}>About.Me</h1>
+      //     <Figure.Image
+      //       style={{
+      //         paddingLeft: "50px",
+      //         paddingTop: "20px",
+      //         paddingRight: "auto",
+      //         filter: "brightness-130px",
+      //       }}
+      //       width={200}
+      //       height={300}
+      //       alt="271x380"
+      //       src={headshot}
+      //     />
 
-                </Button>
-                <Button size="small" color="primary">
+      <Media>
+        <img
+          style={{
+            paddingTop: "65px",
+            paddingLeft: "40px",
+            paddingRight: "auto",
+            filter: "brightness-130px",
+          }}
+          width={220}
+          height={330}
+          alt="271x380"
+          src={headshot}
+          alt="Generic placeholder"
+        />
+        <Media.Body>
+          <h1 style={{ color: "orange" }}>About.Me</h1>
+          <p
+            style={{
+              marginLeft: "45px",
+              paddingRight: "20px",
+              paddingLeft: "20px",
+              marginRight: "45px",
+              paddingTop: "30px",
+              color: "orange",
+              backgroundColor: "white",
+              fontSize: "30px",
+            }}
+          >
+            Full Stack Web developer with a background in sales and sales
+            management. Graduate of the Northwestern Coding Boot Camp as well as
+            holding a BA degree in business management with a minor in media
+            marketing.As a full stack web developer I look forward to leveraging
+            my management skill-set with new web development and programming
+            techniques. <br></br> I have a strong curiosity for new tools,
+            programs and technologies along with a passion for creating new
+            applications and collaborating with others.
+          </p>
 
-                    <span><a href={urlLinkedin }>Linkedin</a></span>
-
-                </Button>
-            </CardActions> */}
-        </Card>
+          {/* <Button
+            style={{
+              marginLeft: "45px",
+              marginRight: "45px",
+              paddingTop: "30px",
+              alignContent: "center",
+              backgroundColor: "white",
+              fontSize: "30px",
+            }}
+          >
+            <span>
+              <a style={{ color: "orange" }} href={email}>
+                Email.Me
+              </a>
+            </span>
+          </Button> */}
+        </Media.Body>
+  
+      </Media>
     );
 }

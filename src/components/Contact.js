@@ -4,9 +4,12 @@ import Card from '@material-ui/core/Card';
 import { makeStyles } from '@material-ui/core/styles';
 import CardActions from '@material-ui/core/CardActions';
 
-import Button from '@material-ui/core/Button';
-import "../App.css"
 
+import "../App.css"
+import Container from 'react-bootstrap/esm/Container';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
 
 const Contact = () => {
@@ -19,32 +22,86 @@ const Contact = () => {
 
 
     return (
-        <div>
-            
-        <Card >
-            <CardActions className="contact">
-                <Button size="small" color="primary">
-                    <span><a href={email}>Email.Me</a></span>
-                </Button>
-                <Button size="small" color="primary">
-
-                    <span><a href={urlGithub}>Github.Page</a></span>
-
-                </Button>
-                <Button size="small" color="primary">
-
-                    <span><a href={resume}>Resume</a></span>
-
-                </Button>
-                <Button size="small" color="primary">
-
-                    <span><a href={urlLinkedin}>Linkedin</a></span>
-
-                </Button>
-            </CardActions>
-        </Card>
-        </div>
-       
-    )
+      <Container>
+        <Row>
+          <Col>
+            <Button
+              style={{
+                marginLeft: "45px",
+                marginRight: "45px",
+                marginTop: "30px",
+                paddingTop: "30px",
+                alignContent: "center",
+                backgroundColor: "white",
+                fontSize: "30px",
+              }}
+            >
+              <span>
+                <a style={{ color: "orange" }} href={urlGithub}>
+                 Github.Account
+                </a>
+              </span>
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              style={{
+                marginLeft: "45px",
+                marginRight: "45px",
+                marginTop: "30px",
+                paddingTop: "30px",
+                alignContent: "center",
+                backgroundColor: "white",
+                fontSize: "30px",
+              }}
+            >
+              <span>
+                <a style={{ color: "orange" }} href={urlLinkedin}>
+                  Linkedin.Account
+                </a>
+              </span>
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              style={{
+                marginLeft: "45px",
+                marginRight: "45px",
+                marginTop: "30px",
+                paddingTop: "30px",
+                alignContent: "center",
+                backgroundColor: "white",
+                fontSize: "30px",
+              }}
+            >
+              <span>
+                <a style={{ color: "orange" }} src={resume}>
+                  Resume
+                </a>
+              </span>
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              style={{
+                marginLeft: "45px",
+                marginRight: "45px",
+                marginTop: "30px",
+                paddingTop: "30px",
+                alignContent: "center",
+                backgroundColor: "white",
+                fontSize: "30px",
+              }}
+            >
+              <span>
+                <a style={{ color: "orange" }} href={email}>
+                  Email.Me
+                </a>
+              </span>
+            </Button>
+          </Col>
+        </Row>
+      </Container>
+    );
 }
 export default Contact

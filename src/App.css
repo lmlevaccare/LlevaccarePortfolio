@@ -3,6 +3,7 @@
   font-size: 25px;
   font-family:"Open Sans Condensed, sans-serif";
   margin-top: 0mm;
+  /* color: orange; */
 
 }
 
@@ -21,6 +22,7 @@
 
 .background, html, body{
     background-image: url('./images/homemed.png');
+    /* background-image: url("./images/colorfulbkgrnd.jpeg"); */
     height: 100%; 
     font-weight: bolder;
 }
@@ -38,17 +40,15 @@ height: 400;
   margin-right: 20px;
  padding-top:25px;
 }
-.jumbotron {
-  text-align: center;
-}
+
 
 h1{
   text-align: center;
 }
 h2{
 font-size: 20px;
-
 font-family:"Open Sans Condensed, sans-serif";
+text-align: center;
 }
 h3 {
 text-align: center;
@@ -61,8 +61,14 @@ font-family:"Open Sans Condensed, sans-serif";
 h4{
   color: white;
   font-size: 20px;
+  /* font-style: italic; */
 }
 
+
+.container {
+  text-align: center;
+  /* background-color: rgb(245, 206, 245); */
+}
 .typescript{
   text-align: center;
   margin-top: 30px;
@@ -74,24 +80,36 @@ span{
   font-size: 35px;
   
 }
-
+.portfoliologo{
+  padding-top: 25px;
+}
 .wrapper {
   padding-top: 50px;
-  /* background:dimgrey; */
-  /* background-color:black; */
+  color:white;
+ background-color:white;
   height: 100%;
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
   padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto;
+  /* justify-content: space-around; */
+  margin-left: auto;  
+margin-right: auto; 
+  /* align-content: flex-start;
+  overflow: auto; */
 }
-.works{
-  margin-top: 50px;
+.d-block{
+  margin-top: 30px;
+  padding-right: 90px;
+  margin-left: auto;  
+margin-right: auto;  
+  padding-left:90px;
+  height: 450px;
+ text-align: center;  
+
+
 }
 .navbar {
-  background-color:black;
+  background-color:white;
   color: white
 };
 

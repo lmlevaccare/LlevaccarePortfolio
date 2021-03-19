@@ -6,11 +6,10 @@ import TypedScript from "../components/TypedScript"
 
     return (
       <div className="portfoliologo">
-        <h3>
-            Lets Create Together
-            {/* "First solve the problem. <br></br>Then, write the code" */}
-
-        </h3>
+        <h1 style={{ color: "orange", fontStyle: "italic" }}>
+          Lets Create Together
+          {/* "First solve the problem. <br></br>Then, write the code" */}
+        </h1>
 
         <br />
         <TypedScript />
