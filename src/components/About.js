@@ -7,7 +7,7 @@ import headshot from "../images/headshot2.jpg"
 import Wrapper from "../components/Wrapper"
 import "../App.css"
 import Container from 'react-bootstrap/esm/Container';
-import About from "./About"
+import ContactLinks from "./ContactLinks"
 export default function MediaCard() {
 
       let email = "mailto:laurenlevaccare@icloud.com";
@@ -16,59 +16,65 @@ export default function MediaCard() {
     
 
     return (
-      // <Figure>
-
-      //     <h1 style={{ color: "orange" }}>About.Me</h1>
-      //     <Figure.Image
-      //       style={{
-      //         paddingLeft: "50px",
-      //         paddingTop: "20px",
-      //         paddingRight: "auto",
-      //         filter: "brightness-130px",
-      //       }}
-      //       width={200}
-      //       height={300}
-      //       alt="271x380"
-      //       src={headshot}
-      //     />
-
       <Media>
         <img
           style={{
-            paddingTop: "65px",
+            marginTop: "85px",
+            paddingTop: "20px",
             paddingLeft: "40px",
             paddingRight: "auto",
+            boxShadow: "black",
+
             filter: "brightness-130px",
           }}
-          width={220}
+          width={230}
           height={330}
           alt="271x380"
           src={headshot}
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h1 style={{ color: "orange" }}>About.Me</h1>
-          <p
+          <h1
             style={{
-              marginLeft: "45px",
-              paddingRight: "20px",
-              paddingLeft: "20px",
-              marginRight: "45px",
-              paddingTop: "30px",
-              color: "orange",
-              backgroundColor: "white",
-              fontSize: "30px",
+              color: "white",
+              float: "left",
+              textShadow: "3px 3px 3px violet",
             }}
           >
-            Full Stack Web developer with a background in sales and sales
+            About.Me
+          </h1>
+
+          <p
+            style={{
+              marginLeft: "35px",
+              marginTop: "20px",
+              paddingRight: "20px",
+              paddingLeft: "20px",
+              marginRight: "35px",
+              paddingTop: "20px",
+              color: "rgb(48, 3, 31)",
+              backgroundColor: "rgb(218, 209, 219)",
+              fontSize: "30px",
+              float: "left",
+              borderStyle: "solid",
+            }}
+          > <b>BACKGROUND</b><br></br>
+            Full Stack Web developer with a background in business operations and sales
             management. Graduate of the Northwestern Coding Boot Camp as well as
             holding a BA degree in business management with a minor in media
             marketing.As a full stack web developer I look forward to leveraging
             my management skill-set with new web development and programming
-            techniques. <br></br> I have a strong curiosity for new tools,
-            programs and technologies along with a passion for creating new
-            applications and collaborating with others.
+            techniques. I have a strong curiosity for new tools, programs and
+            technologies along with a passion for creating new applications and
+            collaborating with others.<br></br> <b>TECHNICAL SKILLS</b>
+            <br></br> <b>Languages :</b> JavaScript(ES6, Vanilla) | SQL | HTML |
+            CSS | Bash <br></br>
+            <b>Frameworks & Libraries:</b> React | jQuery | Ajax | Axios|
+            Express | Node | Yarn | Bootstrap | Flexbox| Material-Ui | Foundation<br></br>
+            <b>Applications & Databases :</b> VS code | Heroku| Github | Gitlab
+            | Gitbash | MongoDB | Sequelize
           </p>
+          <p></p>
 
           {/* <Button
             style={{
@@ -87,7 +93,6 @@ export default function MediaCard() {
             </span>
           </Button> */}
         </Media.Body>
-  
       </Media>
     );
 }

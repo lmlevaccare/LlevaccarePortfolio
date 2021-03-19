@@ -14,13 +14,27 @@ import employee from "../images/employeegenerator.jpeg";
 
 const WorkImg = () => {
   return (
-    // <Wrapper className="works" style={{ color: "orange", textAlign: "center" }}>
-    <div className="work">
-      <h1 style={{ color: "orange", textAlign: "center" }}>My.Work</h1>
+    // <Wrapper className="works" style={{  color: "rgb(48, 3, 31)", textAlign: "center" }}>
+    <div >
+      <h1
+        style={{
+          color: "white",
+          textAlign: "center",
+          textShadow: "3px 3px 3px violet",
+        }}
+      >
+        My.Work
+      </h1>
 
-      <h3 style={{ color: "orange", fontStyle:"italic" }}>
-          "First, solve the problem. Then, write the code."
-       
+      <h3
+        style={{
+          color: "white",
+          fontStyle: "italic",
+          fontWeight: "bolder",
+          textShadow: "3px 3px 3px violet",
+        }}
+      >
+        "First, solve the problem. Then, write the code."
       </h3>
 
       <Carousel fade>

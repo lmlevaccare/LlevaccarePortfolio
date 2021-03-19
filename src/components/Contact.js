@@ -1,107 +1,49 @@
 import React from 'react'
-import resume from "../images/Lauren Levaccare Resume FEB 2021.pdf"
-import Card from '@material-ui/core/Card';
-import { makeStyles } from '@material-ui/core/styles';
-import CardActions from '@material-ui/core/CardActions';
-
-
-import "../App.css"
-import Container from 'react-bootstrap/esm/Container';
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-
-
-const Contact = () => {
-
-     
-    let email = "mailto:laurenlevaccare@icloud.com"
-    let urlLinkedin = "https://www.linkedin.com/in/laurenlevaccareresume"
-    let urlGithub = "https://github.com/lmlevaccare"
-
-
-
+ import resume from "../images/Lauren Levaccare TR copy.pdf";
+export const Contact = () => {
+    let email = "mailto:laurenlevaccare@icloud.com";
+    let urlLinkedin = "https://www.linkedin.com/in/laurenlevaccareresume";
+    let urlGithub = "https://github.com/lmlevaccare";
+   
     return (
-      <Container>
-        <Row>
-          <Col>
-            <Button
-              style={{
-                marginLeft: "45px",
-                marginRight: "45px",
-                marginTop: "30px",
-                paddingTop: "30px",
-                alignContent: "center",
-                backgroundColor: "white",
-                fontSize: "30px",
-              }}
-            >
-              <span>
-                <a style={{ color: "orange" }} href={urlGithub}>
-                 Github.Account
-                </a>
-              </span>
-            </Button>
-          </Col>
-          <Col>
-            <Button
-              style={{
-                marginLeft: "45px",
-                marginRight: "45px",
-                marginTop: "30px",
-                paddingTop: "30px",
-                alignContent: "center",
-                backgroundColor: "white",
-                fontSize: "30px",
-              }}
-            >
-              <span>
-                <a style={{ color: "orange" }} href={urlLinkedin}>
-                  Linkedin.Account
-                </a>
-              </span>
-            </Button>
-          </Col>
-          <Col>
-            <Button
-              style={{
-                marginLeft: "45px",
-                marginRight: "45px",
-                marginTop: "30px",
-                paddingTop: "30px",
-                alignContent: "center",
-                backgroundColor: "white",
-                fontSize: "30px",
-              }}
-            >
-              <span>
-                <a style={{ color: "orange" }} src={resume}>
-                  Resume
-                </a>
-              </span>
-            </Button>
-          </Col>
-          <Col>
-            <Button
-              style={{
-                marginLeft: "45px",
-                marginRight: "45px",
-                marginTop: "30px",
-                paddingTop: "30px",
-                alignContent: "center",
-                backgroundColor: "white",
-                fontSize: "30px",
-              }}
-            >
-              <span>
-                <a style={{ color: "orange" }} href={email}>
-                  Email.Me
-                </a>
-              </span>
-            </Button>
-          </Col>
-        </Row>
-      </Container>
+      <div>
+        <h1
+          style={{
+            color: "white",
+            float: "left",
+            paddingLeft: "20px",
+            textShadow: "3px 3px 3px violet",
+          }}
+        >
+          Contact.Me
+        </h1>
+
+        <p
+          style={{
+            marginLeft: "35px",
+            marginTop: "50px",
+            paddingRight: "20px",
+            paddingLeft: "20px",
+            marginRight: "35px",
+            paddingTop: "20px",
+            color: "rgb(48, 3, 31)",
+            backgroundColor: "rgb(218, 209, 219)",
+            fontSize: "30px",
+            float: "left",
+            borderStyle: "solid",
+          }}
+        >
+          I would love to hear from you!
+          <br></br>
+          If you would like to chat, please contact me directly at{" "}
+          <a href={email}>laurenlevaccare@icould.com</a>
+          <br></br>For a further look into my web development work and
+          background, please check out the links below.<br></br>
+          <a href={urlGithub}>GitHub.Account</a> <br></br>
+          <a href={urlLinkedin}>Linkedin.Account</a> <br></br>
+          <a href={resume}>Resume</a>
+        </p>
+      </div>
     );
 }
 export default Contact

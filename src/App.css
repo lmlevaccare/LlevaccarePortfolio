@@ -3,7 +3,8 @@
   font-size: 25px;
   font-family:"Open Sans Condensed, sans-serif";
   margin-top: 0mm;
-  /* color: orange; */
+  
+
 
 }
 
@@ -21,12 +22,16 @@
 
 
 .background, html, body{
-    background-image: url('./images/homemed.png');
-    /* background-image: url("./images/colorfulbkgrnd.jpeg"); */
-    height: 100%; 
+    /* background-image: url('./images/homemed.png'); */
+    background-image: url('./images/blueaBSTACT.jpeg');
+    background-blend-mode: multiply;  
+    height: 100%;
     font-weight: bolder;
 }
-
+img{
+  box-shadow: rgb(98, 87, 99);
+ 
+}
 p{
   margin-left: 38px;
   font-size: 35px;
@@ -111,9 +116,16 @@ margin-right: auto;
 .navbar {
   background-color:white;
   color: white
+   
 };
 
-
+.work{
+     background-image: url();
+}
+.fixed-bottom{
+color: white;
+  text-align: center;
+}
 /* bg{
    background-color: dimgray;
 } */
